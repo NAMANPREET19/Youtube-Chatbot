@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>YOUTUBE CHATBOT</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <header class="app__header">
+            <span class="eyebrow">Now watching · ask anything</span>
+            <h1 class="title">Video Copilot</h1>
+        </header>
+
+        <div class="panel">
+
+            <label class="field-label" for="question">Your question</label>
+
+            <textarea
+                id="question"
+                placeholder="What does the video say about...?"></textarea>
+
+            <button id="askBtn">Ask</button>
+
+            <div id="loading" class="loading" aria-live="polite"></div>
+
+            <div id="answer" class="answer" aria-live="polite"></div>
+
+        </div>
+
+        <footer class="app__footer">Answers are grounded in the video transcript</footer>
+
+    </div>
+
+    <script src="popup.js"></script>
+
+</body>
+
+</html>
