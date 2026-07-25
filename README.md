@@ -30,7 +30,7 @@
      link below.
 -->
 
-![Demo GIF goes here — record a 10-15s clip of asking a question and getting a timestamped answer](demo.mp4.mp4)
+https://github.com/user-attachments/assets/c6661a0b-c52d-40d1-9999-c8058def666e
 
 
 ---
